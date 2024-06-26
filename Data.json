@@ -1,0 +1,130 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3",
+    "type": "AdaptiveCard",
+    "speak": "這是我自己刻的AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "[RealTtime]租車單查詢",
+            "size": "ExtraLarge",
+            "weight": "Bolder",
+            "horizontalAlignment": "Center"
+        },
+        {
+            "type": "ColumnSet",
+            "separator": true,
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": 1,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "租車單單號"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "租車日期"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "租車客戶"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": 1,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "2019010066",
+                            "color": "Accent"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "2019/01/02",
+                            "color": "Accent"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "000010 技鼎股份有限公司",
+                            "color": "Accent"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "行程",
+            "size": "Large",
+            "weight": "Bolder",
+            "separator": true
+        },
+        {
+            "type": "ColumnSet",
+            "separator": true,
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": 1,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "起點"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "芎林竹林路126巷3號"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": 1,
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://cdn-icons-png.flaticon.com/512/2736/2736918.png",
+                            "size": "Small",
+                            "horizontalAlignment": "Center"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": 1,
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "終點"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "桃園機場"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "乘客名單",
+            "size": "Large",
+            "separator": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "楊智舜(/0928-222671)\r\n傳司機給客人和賴小姐0937-580942"
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.OpenUrl",
+            "title": "按我直接打開Google Map",
+            "url": "https://reurl.cc/OM3ZX3"
+        }
+    ]
+}
